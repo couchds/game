@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dq1uuuoqwp0wu"]
+
+[ext_resource type="Script" uid="uid://b0copq8rnv7oj" path="res://managers/menu_manager.gd" id="1_joxtn"]
+
+[node name="MenuManager" type="Node" unique_id=738496160]
+script = ExtResource("1_joxtn")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1790365803]
