@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-MenuManager="*uid://b0copq8rnv7oj"
+MenuManager="*uid://dq1uuuoqwp0wu"
 
 [display]
 

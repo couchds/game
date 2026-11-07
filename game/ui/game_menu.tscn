@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dvjjfu8f6kiv3"]
 
-[node name="PauseMenu" type="Control" unique_id=1620187364]
+[node name="GameMenu" type="Control" unique_id=1620187364]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0

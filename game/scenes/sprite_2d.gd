@@ -3,7 +3,6 @@ extends Sprite2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	print('Sprite2D enters scene tree')
 	pass # Replace with function body.
 
 

@@ -1,5 +1,7 @@
 extends Node
 
+const GAME_MENU_SCENE: PackedScene = preload("res://ui/game_menu.tscn")
+
 # TBD - not sure if we should pause
 const SHOULD_PAUSE = false
 
@@ -14,7 +16,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		get_viewport().set_input_as_handled()
 
 func open_pause_menu() -> void:
-	var menu = preload("res://ui/pause_menu.tscn").instantiate()
+	var menu = preload("res://ui/game_menu.tscn").instantiate()
 	get_tree().root.add_child(menu)
 
 	current_menu = menu
