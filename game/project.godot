@@ -21,6 +21,9 @@ MenuManager="*uid://dq1uuuoqwp0wu"
 
 [display]
 
+window/size/viewport_width=2040
+window/size/viewport_height=1800
+window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
