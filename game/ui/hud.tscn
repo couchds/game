@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://nngn7xnun5cs"]
+
+[ext_resource type="Texture2D" uid="uid://bnrd4kuj8taap" path="res://Addons/GUI/button/64x64_button/red_button_normal_64x64.png" id="1_276te"]
+[ext_resource type="Texture2D" uid="uid://tspqarj1mvpk" path="res://Addons/GUI/button/64x64_button/red_button_pressed_64x64.png" id="2_7ihmi"]
+[ext_resource type="Texture2D" uid="uid://c1hohucbangr1" path="res://Addons/GUI/icon/close_disable.png" id="2_546lt"]
+[ext_resource type="Script" uid="uid://doe21fap2iyi8" path="res://ui/quit_button.gd" id="3_7ihmi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pv4sj"]
+bg_color = Color(0.98925453, 0.29367217, 0.39392376, 1)
+
+[node name="Hud" type="CanvasLayer" unique_id=262232056]
+
+[node name="HealthBar" type="ProgressBar" parent="." unique_id=2119127831]
+offset_left = 81.0
+offset_top = 44.0
+offset_right = 933.0
+offset_bottom = 118.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_pv4sj")
+value = 100.0
+show_percentage = false
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=1084420561]
+offset_left = 2566.0
+offset_top = 27.0
+offset_right = 2772.0
+offset_bottom = 178.0
+texture_normal = ExtResource("1_276te")
+texture_pressed = ExtResource("2_7ihmi")
+texture_hover = ExtResource("2_7ihmi")
+stretch_mode = 0
+script = ExtResource("3_7ihmi")
+
+[node name="CloseDisable" type="Sprite2D" parent="TextureButton" unique_id=1668758428]
+position = Vector2(102.000046, 69)
+scale = Vector2(1.6914067, 1.033203)
+texture = ExtResource("2_546lt")
